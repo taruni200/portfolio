@@ -3,7 +3,7 @@ import './About.css';
 import Profile from '../assets/profile.png';
 import leet from '../assets/leetcodelogo.jpg';
 import hack from '../assets/hackerrank-logo.png';
-import codec from '../assets/codeChef-logo.png';
+import codec from '../assets/codechef-logo.png';
 const About = () => {
     return (
         <div id="about_1" className='about'>
