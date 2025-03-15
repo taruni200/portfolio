@@ -1,0 +1,101 @@
+.heading-name{
+   font-family: Arial, Helvetica, sans-serif;
+   color:white;
+   font-size: 32px;
+}
+.main-name{
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 32px;
+    color: #c770f0;
+
+}
+.Profile{
+    border: 3px solid #DA7C25;
+    width: 400px;
+    height: 420px;
+    background-color: #c770f0;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    top: 30px;
+}
+.Profile img {
+    width: 100%; /* Make image fill the div */
+    height: 100%; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensures image fits without distortion */
+    border-radius: inherit; /* Matches div’s border-radius */
+}
+
+.Hm{
+    display:flex;
+    width: 100%;
+    height: 60svh;
+    justify-content: space-around;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    height: 400px;
+   
+}
+.Resume-connect{
+    padding:10px 20px;
+    border-radius: 50px;
+    background:linear-gradient(267deg,#DA7C25 0.36%,#c770f0);
+    font-size: 24PX;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Resume-connect:hover{
+    transform: scale(1.05);
+}
+@media screen and (max-width: 720px) {
+    .Hm {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center;
+        justify-content: center;
+        height: auto; /* Adjust height dynamically */
+        /* background-color: #DA7C25; */
+        text-align: center;
+    }
+
+    .home {
+        order: 1; 
+        width: 90%; 
+        height: auto;
+        padding: 20px;
+    }
+
+    .Profile {
+        border: 3px solid #DA7C25;
+        order: 1; /* Move the image down */
+        width: 280px; /* Adjust image size */
+        height: 300px;
+        border-radius: 50px;
+        margin-top: 20px; /* Space between text and image */
+    }
+    
+    .Profile img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensures the image fits properly */
+    }
+    .heading-name, .main-name {
+        font-size: 24px; /* Adjust font size for small screens */
+    }
+
+    .Resume-connect {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+    
+    
+}
+

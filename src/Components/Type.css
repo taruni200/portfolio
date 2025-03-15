@@ -1,0 +1,14 @@
+.typewriter-text {
+    color:#c770f0; 
+    font-size:18px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+  @media screen and (max-width: 720px) {
+    .typewriter-text {
+      color:#c770f0; 
+      font-size:12px;
+      font-weight: bold;
+      font-family: Arial, sans-serif;
+    }
+  }
