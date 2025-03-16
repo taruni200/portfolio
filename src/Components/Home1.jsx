@@ -10,7 +10,7 @@ const Home1 = () => {
     <div id="home" className="Hm">
       <div className='home'>
         <h1 style={{ paddingBottom: 15 }} className="heading">
-          Hi There!{" "}
+          Hi
           <span className="wave" role="img" aria-labelledby="wave">
             👋🏻
           </span>
