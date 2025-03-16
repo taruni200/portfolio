@@ -14,10 +14,19 @@
     padding: 0px 30px;
     font-size: 60px;
     font-weight: 600;
+    background:linear-gradient(264deg,#DF8908 -5.09%,#c770f0 106.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .about-title h1:hover{
   border-bottom: 10px;
-    font-size: 65px;   
+    font-size: 65px; 
+     font-weight: 600;
+    background:linear-gradient(264deg,#DF8908 -5.09%,#c770f0 106.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .about-sections{
     display: flex;
@@ -122,9 +131,7 @@ background:linear-gradient(264deg,#DF8908 -5.09%,#c770f0 106.28%);
         border:5px solid #DF8908;
     }
     .about {
-        /* flex-direction: column;
-        margin: 40px 50px;
-        gap: 40px; */
+        
         display: flex;
         justify-content: center;
         align-items: center;
