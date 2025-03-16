@@ -106,7 +106,7 @@ background:linear-gradient(264deg,#DF8908 -5.09%,#c770f0 106.28%);
 
 @media screen and (max-width: 720px) {
     .about-skill hr{
-        outline:3px solid #DF8908;
+/*         outline:3px solid #DF8908; */
     border:none;
     width: 50%;
     height: 10px;
