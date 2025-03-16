@@ -53,7 +53,7 @@
     font-weight: 500;
 }
 .about-skill hr{
-/*     outline:3px solid #DF8908; */
+    /* outline:3px solid #DF8908; */
     border:none;
 width: 50%;
 height: 8px;
@@ -106,7 +106,7 @@ background:linear-gradient(264deg,#DF8908 -5.09%,#c770f0 106.28%);
 
 @media screen and (max-width: 720px) {
     .about-skill hr{
-/*         outline:3px solid #DF8908; */
+        
     border:none;
     width: 50%;
     height: 10px;
@@ -122,34 +122,62 @@ background:linear-gradient(264deg,#DF8908 -5.09%,#c770f0 106.28%);
         border:5px solid #DF8908;
     }
     .about {
-        flex-direction: column;
+        /* flex-direction: column;
         margin: 40px 50px;
-        gap: 40px;
+        gap: 40px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:40px;
+        flex-direction: column;
+        margin: 80px 170px;
     }
     .about-title h1 {
-        font-size: 40px;
+        font-size:40px;
         padding: 0 10px;
+      font-weight: bold;
+      background:linear-gradient(264deg,#DF8908 -5.09%,#c770f0 106.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     }
     .about-title h1:hover {
-        font-size: 42px;
+        font-size:40px;
+        background:linear-gradient(264deg,#DF8908 -5.09%,#c770f0 106.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     }
     .about-sections {
+        display: flex;
         flex-direction: column;
         gap: 40px;
     }
     .about-right {
+        display: flex;
+        flex-direction: column;
+        
         gap: 40px;
     }
     .about-para {
-        font-size: 18px;
-        gap: 15px;
+       
+        display: flex;
+        flex-direction: column;
+        
+        gap: 20px;
+        font-size:18px;
+        font-weight: 400;
     }
     .about-skill p {
-        font-size: 18px;
+        min-width:80px;
+        font-size:16px;
+        font-weight: 300;
   
     }
    
     .about-achievements {
+       
+       
         flex-direction: column;
         align-items: center;
         gap: 30px;
