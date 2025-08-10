@@ -1,16 +1,15 @@
-
 import React from "react";
 import './Home1.css';
 import profile from "../assets/profile.png";
 import Type from "./Type.jsx";
-import resumePDF from "../assets/R.TaruniRamyaRani(Resume)(U).pdf"; 
+import resumePDF from "../assets/Robbi Taruni Ramya Rani(Resume-0556)"; 
 
 const Home1 = () => {
   return (
     <div id="home" className="Hm">
       <div className='home'>
         <h1 style={{ paddingBottom: 15 }} className="heading">
-          Hi
+          Hi {" "}
           <span className="wave" role="img" aria-labelledby="wave">
             👋🏻
           </span>
@@ -37,6 +36,7 @@ const Home1 = () => {
 };
 
 export default Home1;
+
 
 
 
